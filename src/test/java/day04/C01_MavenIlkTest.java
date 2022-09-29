@@ -31,6 +31,7 @@ public class C01_MavenIlkTest {
         System.out.println(sonucYazisi.getText());
 
         //5- Ilk urunu tiklayalim
+
         //6- Sayfadaki tum basliklari yazdiralim
     }
 }

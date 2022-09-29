@@ -12,7 +12,6 @@ public class C01_Actions extends TestBaseBeforeAfter {
         //Product bölümüne girelim
         driver.findElement(By.cssSelector("a[href=\"/products\"]")).click();
         //ilk ürüne tıklayalım
-        Actions actions = new Actions(driver);
         actions.sendKeys(Keys.PAGE_DOWN).perform();
         driver.findElement(By.cssSelector("a[data-product-id=\"1\"]")).click();
     }
