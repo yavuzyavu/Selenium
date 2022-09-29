@@ -32,6 +32,7 @@ public class C03_DeleteExcel {
         //row objesi ile removecell() methodunu kullanarak cell objesi ile belirttiğimiz cell degerini silebiliriz
         FileOutputStream fos = new FileOutputStream(dosyaYolu);
         workbook.write(fos);
+        System.out.println(cell.toString());
         //-Silindiğini test edin
     }
 }
